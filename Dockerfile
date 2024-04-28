@@ -8,9 +8,8 @@ RUN mkdir /tmp/code
 COPY ./code/ /tmp/code
 
 RUN mkdir /platform/bindings
-RUN mkdir /platform/bindings/maven-settigns
-RUN touch /platform/bindings/maven-settings/type
+RUN mkdir /platform/bindings/maven-settings
 RUN echo -n "maven" > /platform/bindings/maven-settings/type
-COPY ./code/settings.xml /platform/bindings/maven-settigns/settings.xml
+COPY ./code/settings.xml /platform/bindings/maven-settings/settings.xml
 
 RUN chomd 777 -R /platform
