@@ -9,6 +9,7 @@ COPY ./code/ /tmp/code
 
 RUN mkdir /platform/bindings
 RUN mkdir /platform/bindings/maven-settigns
+RUN touch /platform/bindings/maven-settings/type
 RUN echo -n "maven" > /platform/bindings/maven-settings/type
 COPY ./code/settings.xml /platform/bindings/maven-settigns/settings.xml
 
