@@ -6,5 +6,3 @@ RUN mkdir /home/cnb/.m2
 COPY ./code/settings.xml /home/cnb/.m2/settings.xml
 RUN mkdir /tmp/code
 COPY ./code/ /tmp/code
-
-ENTRYPOINT ["tail","-f","/dev/null"]
