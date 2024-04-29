@@ -104,9 +104,16 @@ under the License.
     </proxy>
     -->
     <proxy>
-        <id>optional</id>
+        <id>http</id>
         <active>true</active>
         <protocol>http</protocol>
+        <host>172.20.200.20</host>
+        <port>8080</port>
+    </proxy>
+    <proxy>
+        <id>https</id>
+        <active>true</active>
+        <protocol>https</protocol>
         <host>172.20.200.20</host>
         <port>8080</port>
     </proxy>
