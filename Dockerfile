@@ -1,4 +1,4 @@
-FROM paketobuildpacks/builder:base
+FROM gcr.io/buildpacks/builder:latest
 USER root
 
 RUN mkdir /platform/bindings
