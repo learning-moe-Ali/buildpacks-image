@@ -89,7 +89,7 @@ under the License.
    |-->
   <proxies>
       <proxy>
-		  <host>barakawsg.eg.albaraka.local</host>
+		  <host>172.20.200.20</host>
 		  <port>8080</port>
     </proxy>
 
