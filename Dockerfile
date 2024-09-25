@@ -1,4 +1,4 @@
-FROM paketobuildpacks/builder-jammy-full
+FROM paketobuildpacks/builder-jammy-base
 USER root
 
 RUN mkdir /platform/bindings
