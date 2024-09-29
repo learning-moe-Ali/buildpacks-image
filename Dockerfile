@@ -11,4 +11,5 @@ RUN mkdir /.dotnet
 RUN chmod 777 -R /platform
 RUN chmod 777 -R /.m2
 RUN chmod 777 -R /.dotnet
+RUN chmod 777 -R /.local
 
