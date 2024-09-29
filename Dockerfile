@@ -7,6 +7,7 @@ RUN echo -n "maven" > /platform/bindings/maven-settings/type
 COPY ./code/settings.xml /platform/bindings/maven-settings/settings.xml
 RUN mkdir /.m2
 RUN mkdir /.dotnet
+RUN mkdir /.local
 
 RUN chmod 777 -R /platform
 RUN chmod 777 -R /.m2
